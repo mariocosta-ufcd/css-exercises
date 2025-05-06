@@ -1,34 +1,51 @@
-# CSS Exercises
+# 🎨 CSS Exercises
 
-These exercises consist of a series of CSS-related tasks intended to complement the HTML and CSS content on The Odin Project (TOP). They should only be completed when instructed during the course of the curriculum.
+Estes exercícios consistem em uma série de tarefas relacionadas a CSS destinadas a complementar o conteúdo de HTML e CSS das aulas. Eles só devem ser concluídos quando o formador indicar.
 
-When doing these exercises, please use all documentation and resources you need to accomplish them. You are _not_ intended to have any of this stuff memorized at this point. Check the docs, use Google, and do what you need to do (besides checking the solutions) to get them done.
+Ao fazer estes exercícios, utilize toda a documentação e os recursos necessários para realizá-los. _Não_ é esperado que você tenha memorizado nada disso neste momento. Verifique a documentação, use o Google e faça o que for necessário (além de verificar as soluções) para concluí-los.
 
-> [!IMPORTANT]
-> We encourage you to practice your git skills by committing your changes and pushing them to your own fork.  However, please **DO NOT** open a Pull Request to have your solutions merged into this repo or to show your solution.  If we were to merge your changes the exercises would no longer be available as intended for new learners, and opening a PR only causes additional work for us, as we have to close it without merging.
+> [!IMPORTANTE]
+> Incentivamos você a praticar suas habilidades com o git, enviando suas alterações e enviando-as para seu próprio fork criado com o Classroom.
 
-## Contributing
+---
 
-If you have suggestions to improve an exercise, ideas for a new exercise, or notice an issue with an exercise, please feel free to open an issue after thoroughly reading our [contributing guide](https://github.com/TheOdinProject/.github/blob/main/CONTRIBUTING.md).
+## ✅ Objetivos
 
-## How To Use These Exercises
+- Reforçar o que aprendeste sobre **seletores**, **estilização**, **layouts** e boas práticas em CSS.
+- Ajudar-te a ganhar **autonomia na escrita de código CSS**.
+- Praticar **Git e GitHub**, com commits e versionamento do teu progresso.
 
-1. Fork and clone this repository. To learn how to fork a repository, see the GitHub documentation on how to [fork a repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
-    - Copies of repositories on your machine are called clones. If you need help cloning to your local environment, you can learn how from the GitHub documentation on [cloning a repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository).
-1. Go to an exercise directory and open the HTML file in a web browser. You can open the file directly or use something like VSCode's Live Server extension.
-1. For each exercise, read the README thoroughly before starting any work.
-    - Each README has a "Self Check" list. Use this to ensure you haven't missed any important details in your implementation.
-1. Make your edits in the `index.html` and/or the `style.css` files in order to make the output in your browser look like the Desired Outcome image(s).
-    - Depending on the instructions of the exercise, you may only need to make edits in one of these files.
-1. Once you successfully finish an exercise, check TOP's solution to compare it with yours.
-    - You should not be checking the solution for an exercise until you finish it!
-    - If your solution differs wildly from TOP's solution (and still passes the exercise's requirements), that's completely fine. Do feel free to ask about it in our Discord if there are parts you do not understand.
+---
 
-> [!IMPORTANT]
-> Do not submit your solutions to this repo, as any PRs that do so will be closed without merging.
+## 🛠️ Como usar estes exercícios
+
+1. **Aceita o assignment** no GitHub Classroom (será fornecido pelo formador).
+2. O repositório será criado automaticamente na tua conta GitHub.
+3. Clona o repositório para o teu computador com:
+   ```bash
+   git clone git@github.com:teu-utilizador/nome-do-repo.git
+   cd nome-do-repo
+   ```
+4. Abre o projeto no VS Code e usa a extensão Live Server para visualizar os ficheiros .html no browser.
+5. Em cada pasta de exercício:
+  - Lê o README.md com atenção. Ele tem um "Self Check" list. Usa para garantires que não falhastes nenhum detalhe.
+  - Segue os passos indicados.
+  - Edita os ficheiros index.html e/ou style.css conforme necessário.
+  - Verifica o resultado no browser.
+
+💡 Recomendações
+- Consulta a documentação sempre que precisares, por exemplo:
+
+- Documentação oficial CSS (MDN)
+
+- Não precisas decorar nada nesta fase. O importante é aprender a resolver problemas e testar.
+
+- Evita usar soluções prontas — o objetivo é praticar e errar para aprender!
+
+- 
 
 ## Some Hints
-- The official solutions put all changes at the _end_ of the CSS file, which may duplicate some selectors (e.g. there might be a `body {}` in the given CSS and another `body {}` in the solution). When you are working on an exercise, it is best practice to add your CSS to existing selectors instead of duplicating them at the end of the file. We're sacrificing this best practice in our official solutions to make it extra clear to you what things we changed to solve the exercise.
-- Unless listed in the self-check section, do not worry about getting the exact pixel value for things like margin, padding and font size. These exercises are intended to test your knowledge of CSS, not your ability to guess that a screenshot is using `font: sans-serif bold 16px` or that the margin is _exactly_ `42px`.
-- You may need to add some elements to your HTML to get things into the right spot. (For the first few exercises, we make it explicit when this needs to happen.)
-- You may need to add more selectors to your CSS file. The first few exercises have almost everything already done for you, but as you progress, you'll find that you need to add more and more selectors to get the correct result.
+- As soluções oficiais colocam todas as alterações no _end_ do arquivo CSS, o que pode duplicar alguns seletores (por exemplo, pode haver um `body {}` no CSS fornecido e outro `body {}` na solução). Ao trabalhar em um exercício, é recomendável adicionar seu CSS aos seletores existentes em vez de duplicá-los no final do arquivo. Estamos sacrificando essa prática recomendada em nossas soluções oficiais para deixar ainda mais claro o que alteramos para resolver o exercício.
+- A menos que esteja listado na seção de autoverificação, não se preocupe em obter o valor exato em pixels para itens como margem, preenchimento e tamanho da fonte. Estes exercícios têm como objetivo testar seus conhecimentos de CSS, não sua capacidade de adivinhar se uma captura de tela está usando `font: sans-serif bold 16px` ou se a margem é _exatamente_ `42px`.
+- Talvez seja necessário adicionar alguns elementos ao seu HTML para colocar as coisas no lugar certo. (Nos primeiros exercícios, deixamos claro quando isso precisa acontecer.)
+- Talvez seja necessário adicionar mais seletores ao seu arquivo CSS. Os primeiros exercícios já têm quase tudo pronto, mas, à medida que você avança, perceberá que precisa adicionar mais e mais seletores para obter o resultado correto.
