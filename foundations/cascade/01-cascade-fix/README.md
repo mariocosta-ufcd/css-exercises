@@ -1,18 +1,50 @@
-# CSS Methods
+# 🌀 Exercício: Corrigir a Cascata (Cascade Fix)
 
-This final exercise for CSS Foundations is going to give you a closer look at the cascade, in particular specificity and rule order. Both the HTML and CSS files are filled out for you, so instead of adding rules yourself, you will simply be editing what is provided.
+Este é o **último exercício** da secção de Fundamentos de CSS, e serve para te dar uma visão prática sobre como funciona a **cascata do CSS**, com foco especial na **especificidade dos selectores** e **ordem das regras**.
 
-There are a few elements that have some sort of specificity or rule order issue in the provided CSS file. It's up to you to figure out what issue is affecting an element, and how to fix it. You can edit the CSS file by adding, removing, or editing selectors for a declaration block, or by moving declaration blocks around. **You should not edit the HTML file or any of the actual styles in the CSS**.
+---
 
-There are multiple ways to solve this exercise, so we have provided some of the possible solutions for each element.
+## 🎯 Objetivo
 
-Issues with the cascade can be the bane of their existence for many when it comes to CSS. While you won't become a cascade expert from this exercise alone, and there are other ways to deal with these issues, it is still super helpful to see how these issues affect our final styles and why it's important to order rules carefully.
+O ficheiro HTML e o ficheiro CSS **já estão preenchidos**.
 
-## Desired Outcome
+O teu desafio é **corrigir os conflitos de estilos** que surgem por causa de:
 
-![desired outcome](./desired-outcome.png)
+- Regras com diferentes níveis de **especificidade**
+- **Ordem** das regras no ficheiro CSS
 
-### Self Check
+> 🛑 **Não deves alterar o HTML nem os estilos definidos** (as propriedades e valores).  
+> Só podes editar:
+> - Os **selectores** no CSS (adicionar, remover ou ajustar)
+> - A **ordem** das regras no CSS
 
-- Did you make sure to not edit the HTML file?
-- If you added selectors to the CSS, do they target a valid HTML element?
+---
+
+## 🧩 Como resolver
+
+Há várias formas de resolver este exercício. O importante é perceberes **porque é que certos estilos não estão a funcionar** e como podes corrigi-los:
+
+- O estilo não é aplicado porque outro tem **maior especificidade**?
+- Há uma regra **mais abaixo** no ficheiro CSS que está a sobrepor a anterior?
+
+A ideia é **observar o resultado visual** e depois **ajustar o CSS** para chegar ao estilo pretendido.
+
+---
+
+## 👁️ Resultado Esperado
+
+![Resultado Esperado](./desired-outcome.png)
+
+---
+
+## ✅ Autoavaliação
+
+- Mantiveste o ficheiro HTML **sem alterações**?
+- Se adicionaste ou modificaste selectores no CSS, **correspondem a elementos existentes no HTML**?
+- Os estilos agora aparecem **exatamente como no resultado esperado**?
+
+---
+
+🎓 Esta atividade mostra-te como **o CSS pode entrar em conflito consigo próprio** e porquê. Com prática, vais começar a antecipar estes problemas e a organizar melhor o teu CSS para evitá-los!
+
+Boa sorte! 🚀

@@ -1,14 +1,36 @@
-# Margin and Padding practice
+# 📦 Prática de Margin e Padding
 
-For this first exercise, simply edit the `style.css` file so that the divs look like the image below. Only edit the CSS where instructed in the file.  You should only have to change the values of the margin and padding for this exercise. You should not have to add or remove properties in the CSS, or touch the HTML.
+Neste exercício vais praticar o uso das propriedades **margin** e **padding** para controlar os **espaçamentos internos e externos** dos elementos.  
+O teu objetivo é fazer com que os `div` no HTML fiquem visualmente semelhantes ao exemplo abaixo.
 
-![outcome](./desired-outcome.png)
+---
 
-### Self-check 
-Use this section to check your work. On _these_ projects, your goal isn't to attain 100% pixel perfection, but to use the tools you've learned to get relatively close to the desired output.
+## 🎯 O que deves fazer
 
-- Div One and Div Three have 32px between their text and border.
-- Div One has 12px between it and any other element on the page.
-- There is a 48px gap between Div Two and Div Three.
-- Div Three is aligned to the right.
-- Div Three's alignment is achieved using `margin` (and not float, flexbox, etc.).
+- Abre o ficheiro `style.css`.
+- **Edita apenas onde for indicado** no ficheiro (não cries novas regras nem alteres o HTML).
+- Usa apenas valores de `margin` e `padding`.
+
+---
+
+## 🖼️ Resultado Esperado
+
+![Resultado Esperado](./desired-outcome.png)
+
+---
+
+## ✅ Autoavaliação
+
+Confirma se o teu trabalho cumpre os seguintes critérios:
+
+- 📏 **Div 1 e Div 3** têm `32px` de espaço **entre o texto e a borda** (padding).
+- 🧱 **Div 1** tem `12px` de margem **para os elementos à volta**.
+- ↕️ Entre **Div 2** e **Div 3** há um espaço de `48px`.
+- ⏩ **Div 3** está alinhado à **direita**.
+- 🔄 O alinhamento à direita é feito usando **`margin`** (e **não** `float`, `flexbox`, etc.).
+
+---
+
+> 💡 Dica: Este exercício não precisa de perfeição ao pixel — o importante é compreender e aplicar os conceitos de **margin** e **padding** com intenção.
+
+Boa prática! 💪

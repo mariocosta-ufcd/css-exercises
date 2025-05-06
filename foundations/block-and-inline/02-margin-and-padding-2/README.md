@@ -1,18 +1,40 @@
-# Margin and Padding #2
+# 📦 Prática de Margin e Padding #2
 
-This one is a little nicer looking, and a little closer to something you might see in the real world. You'll need to change a little more than just margin and padding to make it look exactly right.
+Este exercício é um pouco mais próximo de um layout real — mais bonito e realista!
 
-## Desired outcome
-![desired outcome](./desired-outcome.png)
+Vais praticar não só `margin` e `padding`, mas também alguns ajustes de **texto** e **alinhamento**, tal como farias numa página web verdadeira.
 
-### Self Check
-Use this section to check your work. On _these_ projects, your goal isn't to attain 100% pixel perfection, but to use the tools you've learned to get relatively close to the desired output.
+---
 
-- There is 8px between the edge of the card and its content (the blue sections).
-- There is an 8px gap between each of the blue sections inside the card.
-- The title of the card uses a 16px font.
-- There are 8px between the title text and the edge of the title section.
-- The content section has 16px space on the top and bottom, and 8px on either side.
-- Everything inside the `.button-container` section is centered, and there is 8px padding.
-- The Big Button is centered on its own line.
-- The Big Button has 24px space on the sides, and 8px on top and bottom.
+## 🎯 Objetivo
+
+Usar `margin`, `padding`, `text-align` e `font-size` para recriar o layout que vês abaixo:
+
+---
+
+## 🖼️ Resultado Esperado
+
+![Resultado Esperado](./desired-outcome.png)
+
+---
+
+## ✅ Autoavaliação
+
+Confirma se a tua solução cumpre os seguintes pontos:
+
+- 📦 Há **8px** de espaço entre a **borda do cartão** e o conteúdo azul.
+- ↔️ Entre as **seções azuis internas** do cartão há **8px de espaço**.
+- 🔤 O título do cartão tem um tamanho de letra de **16px**.
+- 📐 O título tem **8px de padding** entre o texto e a sua borda.
+- 📏 A secção de conteúdo tem:
+  - **16px** em cima e em baixo
+  - **8px** à esquerda e à direita
+- 🎯 Tudo dentro da `.button-container` está **centralizado** com **8px de padding**.
+- 🔘 O botão grande está centrado numa **linha própria**.
+- 📐 O botão grande tem **24px de padding lateral** e **8px em cima e em baixo**.
+
+---
+
+> 💡 Não te preocupes em acertar ao pixel! O objetivo é aplicar bem os conceitos de espaçamento, alinhamento e dimensionamento.
+
+Continua o bom trabalho! 🚀
