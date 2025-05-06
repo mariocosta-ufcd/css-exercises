@@ -1,24 +1,48 @@
-# Methods for Adding CSS
-In this exercise, you're going to practice adding CSS to an HTML file using all three methods: external CSS, internal CSS, and inline CSS. You should only be using type selectors for this exercise when adding styles via the external and internal methods. You should also use keywords for colors (e.g. "blue") instead of using RGB or HEX values.
+# 🎨 Métodos para Adicionar CSS
 
-There are three elements for you to add styles to, each of which uses a different method of adding CSS to it, as noted in the outcome image below. All other exercises in this section will have a CSS file provided and linked for you, but for this exercise you will have to create the file and link it in the HTML file yourself. This is all about practicing using these different methods and getting the syntax right.
+Neste exercício vais praticar as **três formas principais de aplicar CSS** numa página HTML:
 
-> ## Quick tip:
-> Do not worry about details in these exercises that are not specifically mentioned in the exercise or self check section. Because the desired outcomes are screenshots, your browser may show a different font, the colors may appear different on your machine, or the spacing between elements may look different. Only concern yourself with the specific items you are supposed to be learning for each exercise.
+1. **CSS externo** (ficheiro `.css` separado)
+2. **CSS interno** (dentro da tag `<style>` no `<head>`)
+3. **CSS inline** (diretamente no elemento HTML)
 
-The properties you need to add to each element are:
+---
 
-* `div`: a red background, white text, a font size of 32px, center aligned, and bold
-* `p`: a green background, white text, and a font size of 18px
-* `button`: an orange background and a font size of 18px
+## 🎯 Objetivo
 
-## Desired Outcome
-![desired outcome](./desired-outcome.png)
+Aplica estilos a **três elementos diferentes**, cada um usando um método distinto:
 
+| Elemento | Método de CSS | Estilos a aplicar |
+|----------|----------------|-------------------|
+| `div`    | CSS externo     | fundo vermelho, texto branco, tamanho 32px, centrado e negrito |
+| `p`      | CSS interno     | fundo verde, texto branco, tamanho 18px |
+| `button` | CSS inline      | fundo laranja, tamanho 18px |
 
-### Self Check
-- Did you use all three methods of adding CSS to an HTML file?
-- Did you properly link the external CSS file in the HTML file?
-- Does the `div` element have CSS added via the external method?
-- Does the `p` element have CSS added via the internal method?
-- Does the `button` element have CSS added via the inline method?
+> ⚠️ Usa apenas **seletores por tipo** (`div`, `p`, etc.) nos métodos externo e interno.  
+> Usa nomes de cores como `"red"`, `"green"`, `"orange"` — **não uses** valores HEX nem RGB.
+
+---
+
+## 💡 Dica Rápida
+
+Não te preocupes com detalhes como tipo de letra ou espaço entre elementos, se não forem mencionados. O mais importante é praticares a **sintaxe correta dos três métodos** de CSS.
+
+---
+
+## 👁️ Resultado Esperado
+
+![Resultado esperado](./desired-outcome.png)
+
+---
+
+## ✅ Autoavaliação
+
+- Usaste os **três métodos de CSS** no mesmo ficheiro HTML?
+- Ligaste corretamente o ficheiro CSS externo?
+- O elemento `div` está estilizado com CSS externo?
+- O parágrafo `<p>` está estilizado com CSS interno?
+- O botão `<button>` está estilizado com CSS inline?
+
+---
+
+Boa prática! ✨

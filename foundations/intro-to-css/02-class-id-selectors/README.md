@@ -1,25 +1,51 @@
-# Class and ID Selectors
-Knowing how to add class and ID attributes to HTML elements, as well as use their respective selectors, is invaluable. It's important to practice using them.
+# 🏷️ Exercício: Selectores de Classe e ID
 
-There are several elements in the HTML file provided, which you will have to add either class or ID attributes to, as noted in the outcome image below. You will then have to add rules in the CSS file provided using the correct selector syntax. Look over the outcome image carefully, and try to keep in mind which elements look similarly styled (classes), which ones may be completely unique from the rest (ID), and which ones have slight variations from others (multiple classes).
+Neste exercício vais praticar como usar **classes** e **IDs** no HTML e no CSS para estilizar diferentes elementos de forma organizada.
 
-It isn't entirely important which class or ID values you use, as the focus here is on being able to add the attributes and use the correct selector syntax to style elements. For the colors in this exercise, try using a non-keyword value (RGB, HEX, or HSL). The properties you need to add to each element are:
+---
 
-* **All odd numbered elements**: a light red/pink background, and a list of fonts containing `Verdana` and `DejaVu Sans` with `sans-serif` as a fallback
-* **The second element**: blue text and a font size of 36px
-* **The third element**: in addition to the styles for all odd numbered elements, add a font size of 24px
-* **The fourth element**: a light green background, a font size of 24px, and bold
+## 🎯 Objetivo
 
-Quick tip: in VS Code, you can change which format colors are displayed in RGB, HEX, or HSL by hovering over the color value in the CSS and clicking the top of the popup that appears!
+Tens vários elementos HTML e precisas de:
 
-> ### Note:
-> Part of your task is to add a font to _some_ of these items. Your browser's font's might be different than the one displayed in the desired outcome image. As long as you confirm that the fonts _are_ being applied to the right lines any differences are okay for this exercise.
+- Atribuir **classes** e/ou **IDs** adequados a cada um deles.
+- Estilizar cada elemento no ficheiro `style.css`, usando a **sintaxe correta dos selectores**.
+- Usar **valores de cor em RGB, HEX ou HSL** (em vez de palavras como `"red"` ou `"green"`).
 
-## Desired Outcome
-![desired outcome](./desired-outcome.png)
+---
 
+## 📝 O que deves aplicar
 
-### Self Check
-- Do the odd numbered `p` elements share a class?
-- Do the even numbered `div` elements have unique IDs?
-- Does the Number 3 element have multiple classes?
+| Elemento                   | Estilos a aplicar                                                                            |
+|---------------------------|-----------------------------------------------------------------------------------------------|
+| Todos os elementos ímpares (1, 3, 5...) | Fundo vermelho-claro/rosa claro e `font-family: Verdana, DejaVu Sans, sans-serif`      |
+| Segundo elemento           | Cor do texto azul e tamanho da fonte 36px                                                    |
+| Terceiro elemento          | Os mesmos estilos dos ímpares **+** tamanho da fonte 24px                                    |
+| Quarto elemento            | Fundo verde-claro, tamanho da fonte 24px e texto em negrito                                  |
+
+> 💡 Dica: Pensa nos elementos que **compartilham estilos** para usar **classes**, e nos que são **únicos** para usar **IDs**.  
+> O terceiro elemento tem **múltiplas classes** para herdar estilos comuns e aplicar modificações específicas.
+
+---
+
+## 🧠 Extra
+
+No VS Code, podes alterar o formato da cor entre RGB, HEX e HSL passando o cursor por cima da cor no ficheiro `.css`.
+
+---
+
+## 👁️ Resultado Esperado
+
+![Resultado esperado](./desired-outcome.png)
+
+---
+
+## ✅ Autoavaliação
+
+- Os parágrafos com número ímpar (`1`, `3`, `5`) partilham uma **classe comum**?
+- Os `div` com número par têm **IDs únicos**?
+- O **elemento 3** tem **múltiplas classes**?
+
+---
+
+Boa prática! Estás a ganhar domínio sobre a forma como o CSS pode ser reutilizado ou aplicado a casos específicos! 💪

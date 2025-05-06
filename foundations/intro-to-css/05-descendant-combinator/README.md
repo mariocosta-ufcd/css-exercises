@@ -1,18 +1,40 @@
-# Descendant Combinator
-Understanding how combinators work can become a lot easier when you start playing around with them and see what exactly is affected by them versus what isn't.
+# 👨‍👧 Exercício: Combinador de Descendência (Descendant Combinator)
 
-The goal of this exercise is to apply styles to elements that are descendants of another element, while leaving elements that *aren't* descendants of that element unstyled.
+Neste exercício vais praticar o uso do **combinador de descendência** em CSS, que permite aplicar estilos apenas a elementos que **estão dentro de outros** (ou seja, são seus "descendentes").
 
-You can use either type or class selectors for this exercise; use whichever you may feel you want to practice with more. The HTML file is set up (so no need to edit anything in it) such that any combination of selectors will work, so if you're feeling adventurous you can even try combining a type *and* class selector for the descendant combinator.
+---
 
-The properties you need to add are:
+## 🎯 Objetivo
 
-* Only the `p` elements that are descendants of the `div` element should have a yellow background, red text, a font size of 20px, and center aligned.
+Aplicar estilos **apenas** aos parágrafos (`<p>`) que estão **dentro de um elemento `<div>`**.  
+Todos os outros `<p>` **fora** da `<div>` **não devem ter estilo aplicado**.
 
-## Desired Outcome
-![desired outcome](./desired-outcome.png)
+---
 
+## 📄 Regras a aplicar
 
-### Self Check
-- Do the elements that contain the text "This should be styled" have the correct styles applied?
-- Do the elements that contain the text "This should be unstyled" have no styles applied?
+| Alvo                                  | Estilos                                                              |
+|---------------------------------------|----------------------------------------------------------------------|
+| `p` dentro de `div` (descendentes)    | Fundo amarelo, texto vermelho, tamanho da fonte 20px, texto centrado |
+
+> 💡 Usa **selectores de tipo** ou **de classe** — como quiseres praticar!  
+> Também podes experimentar combinar os dois (ex: `div.exemplo p`).
+
+---
+
+## 👁️ Resultado Esperado
+
+![Resultado Esperado](./desired-outcome.png)
+
+---
+
+## ✅ Autoavaliação
+
+- Os parágrafos com o texto **"This should be styled"** estão com fundo amarelo e texto vermelho?
+- Os parágrafos com o texto **"This should be unstyled"** continuam **sem qualquer estilo aplicado**?
+- Usaste corretamente o **combinador de descendência** (ex: `div p`)?
+
+---
+
+Este exercício ajuda-te a compreender melhor **como o CSS aplica estilos com base na hierarquia dos elementos HTML**.  
+Continua a praticar! 💪

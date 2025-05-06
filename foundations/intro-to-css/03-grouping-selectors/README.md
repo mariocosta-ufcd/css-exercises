@@ -1,19 +1,45 @@
-# Grouping Selectors
+# 🧩 Exercício: Agrupar Selectores em CSS
 
-Let's build a little off the previous exercise. Here, you're going to give two elements each a unique class name, then add rules for styles that both elements share as well as their own unique styles. Make sure you take a good look at the outcome image below to see exactly what is unique about each element, and what both elements have in common.
+Neste exercício vais reforçar o uso de **classes** e de **selectores agrupados** para aplicar estilos partilhados e específicos a elementos diferentes.
 
-This will help you further practice adding classes and using class selectors, so be sure you add the class attribute in the HTML file. For the remainder of these exercises, the format of any colors is entirely up to you; we trust you'll practice using the different values! The properties you need to add to each element are:
+---
 
-- **The first element**: a black background and white text
-- **The second element**: a yellow background
-- **Both elements**: a font size of 28px and a list of fonts containing `Helvetica` and `Times New Roman`, with `sans-serif` as a fallback
+## 🎯 Objetivo
 
-## Desired Outcome
+1. Dá a **cada elemento uma classe única** no HTML.
+2. Usa o CSS para:
+   - Estilizar os **dois elementos com propriedades partilhadas** (ex: fonte, tamanho).
+   - Estilizar **cada um individualmente com o seu estilo único** (ex: cor de fundo).
 
-![desired outcome](./desired-outcome.png)
+---
 
-### Self Check
+## 📝 O que deves aplicar
 
-- Does each element have a unique class name?
-- Did you use the grouping selector for styles that both elements share?
-- Did you make separate rules for the styles unique to each element?
+| Elemento          | Estilos exclusivos                        |
+|-------------------|--------------------------------------------|
+| **1º elemento**   | Fundo preto e texto branco                 |
+| **2º elemento**   | Fundo amarelo                              |
+| **Ambos**         | Fonte: `Helvetica`, `Times New Roman`, `sans-serif` (por ordem de preferência)  
+                    Tamanho da fonte: `28px`                    |
+
+> 💡 Usa um **selector agrupado** para as regras comuns (ex: `.item1, .item2 { ... }`)  
+> Depois usa regras separadas para os estilos únicos de cada elemento.
+
+---
+
+## 👁️ Resultado Esperado
+
+![Resultado Esperado](./desired-outcome.png)
+
+---
+
+## ✅ Autoavaliação
+
+- Cada elemento tem uma **classe única** no HTML?
+- Usaste um **selector agrupado** para os estilos que os dois elementos partilham?
+- Criaste **regras separadas** para aplicar estilos diferentes a cada elemento?
+
+---
+
+Este exercício ajuda-te a escrever CSS mais limpo e organizado, ao reutilizar código quando os estilos são iguais! 🔁  
+Boa prática! 💪

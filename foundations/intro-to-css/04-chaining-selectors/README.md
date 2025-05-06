@@ -1,21 +1,55 @@
-# Chaining Selectors
+# 🔗 Exercício: Encadeamento de Selectores (Chaining Selectors)
 
-Credits for the images in this exercise go to [Katho Mutodo](https://linktr.ee/photobykatho_) and [Andrea Piacquadio](https://www.pexels.com/@olly?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels).
+📸 Créditos das imagens:  
+- [Katho Mutodo](https://linktr.ee/photobykatho_)  
+- [Andrea Piacquadio](https://www.pexels.com/@olly?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
 
+---
 
-With this exercise, we've provided you with a partially completed HTML file which you'll configure. The purpose of this exercise is to focus on understanding how to chain different selectors, rather than solely adding attributes. Additionally, you'll have the chance to review your HTML images.
+## 🎯 Objetivo
 
-We have two images for you to style, each with two class names, where one of the class names is shared. The goal here is to chain the selectors for both elements, so that each have a unique style applied, despite using a shared class selector. For example, you want an element that has both X and Y to have one set of styles, while an element with X and Z has a completely different set of styles. We included the original images as well, so that you can see how the styles you will be adding look in comparison, so do not add any styles to them.
+Neste exercício vais praticar o **encadeamento de selectores CSS** (ou chaining), ou seja, aplicar estilos a elementos **que têm duas classes ao mesmo tempo**.
 
-The properties you need to add to each element are:
+---
 
-* Make the element with both the `avatar` and `proportioned` classes 300 pixels wide, then give it a height so that it retains its original square proportions (don't hardcode in a pixel value for the height!).
-* Make the element with both the `avatar` and `distorted` classes 200 pixels wide, then make its height twice as big as its width (here you should hardcode in a pixel value).
+## 📄 O que deves fazer
 
-## Desired Outcome
-![desired outcome](./desired-outcome.png)
+1. Estás a trabalhar com **duas imagens**, cada uma com duas classes atribuídas:
+   - Ambas têm a classe `avatar`
+   - Cada uma tem uma segunda classe diferente: `proportioned` ou `distorted`
 
-### Self Check
-- Did you properly chain class selectors for each rule?
-- Does the `proportioned` image retain its original square proportions?
-- Does the `distorted` image end up looking squished and, well, distorted?
+2. O teu objetivo é:
+   - Aplicar estilos **específicos a cada combinação de classes**
+   - Sem afetar as imagens originais (que servem apenas como referência visual)
+
+---
+
+## 📝 Estilos a aplicar
+
+| Classe combinada              | Estilos                                                                 |
+|------------------------------|-------------------------------------------------------------------------|
+| `.avatar.proportioned`       | Largura: `300px`, altura: proporcional (não uses valor fixo em px!)     |
+| `.avatar.distorted`          | Largura: `200px`, altura: `400px` (altura fixa, o dobro da largura)     |
+
+> 💡 Usa `height: auto;` para manter proporção, e valores fixos para distorcer.
+
+---
+
+## 👁️ Resultado Esperado
+
+![Resultado Esperado](./desired-outcome.png)
+
+As duas imagens estilizadas devem aparecer ao lado das imagens originais, que **não devem ser alteradas**.
+
+---
+
+## ✅ Autoavaliação
+
+- Usaste **selectores encadeados corretamente**, como `.avatar.proportioned`?
+- A imagem `proportioned` mantém proporção quadrada?
+- A imagem `distorted` está visivelmente esticada verticalmente?
+
+---
+
+Este exercício ajuda-te a escrever CSS mais preciso e seletivo!  
+Boa prática! 💪

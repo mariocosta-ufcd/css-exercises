@@ -28,7 +28,7 @@ Ao fazer estes exercícios, utilize toda a documentação e os recursos necessá
    ```
 4. Abre o projeto no VS Code e usa a extensão Live Server para visualizar os ficheiros .html no browser.
 5. Em cada pasta de exercício:
-  - Lê o README.md com atenção. Ele tem um "Self Check" list. Usa para garantires que não falhastes nenhum detalhe.
+  - Lê o README.md com atenção. Ele tem um **"Autoavaliação List"** . Usa para garantires que não falhastes nenhum detalhe.
   - Segue os passos indicados.
   - Edita os ficheiros index.html e/ou style.css conforme necessário.
   - Verifica o resultado no browser.
@@ -44,7 +44,8 @@ Ao fazer estes exercícios, utilize toda a documentação e os recursos necessá
 
 - 
 
-## Some Hints
+## Dicas
+
 - As soluções oficiais colocam todas as alterações no _end_ do arquivo CSS, o que pode duplicar alguns seletores (por exemplo, pode haver um `body {}` no CSS fornecido e outro `body {}` na solução). Ao trabalhar em um exercício, é recomendável adicionar seu CSS aos seletores existentes em vez de duplicá-los no final do arquivo. Estamos sacrificando essa prática recomendada em nossas soluções oficiais para deixar ainda mais claro o que alteramos para resolver o exercício.
 - A menos que esteja listado na seção de autoverificação, não se preocupe em obter o valor exato em pixels para itens como margem, preenchimento e tamanho da fonte. Estes exercícios têm como objetivo testar seus conhecimentos de CSS, não sua capacidade de adivinhar se uma captura de tela está usando `font: sans-serif bold 16px` ou se a margem é _exatamente_ `42px`.
 - Talvez seja necessário adicionar alguns elementos ao seu HTML para colocar as coisas no lugar certo. (Nos primeiros exercícios, deixamos claro quando isso precisa acontecer.)
