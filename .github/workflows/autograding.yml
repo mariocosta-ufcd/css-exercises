@@ -18,8 +18,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Run CSS Check Script
+      - name: Dar permissão de execução ao script
+        run: chmod +x ./check-css.sh
+
+      - name: Executar verificação de CSS
         run: ./check-css.sh
 
-      - name: Report Results
+      - name: Reportar resultados
         uses: classroom-resources/autograding-grading-reporter@v1
